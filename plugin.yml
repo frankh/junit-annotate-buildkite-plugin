@@ -16,6 +16,8 @@ configuration:
         - file
     fail-build-on-error:
       type: boolean
+    run-in-docker:
+      type: boolean
     context:
       type: string
   required:
